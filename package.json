@@ -6,6 +6,7 @@
   "author": "Igor Ferreira",
   "license": "MIT",
   "scripts": {
+    "db:create": "node src/database/createDB.js",
     "start": "node src/server.js",
     "dev": "nodemon src/server.js --ignore tests",
     "test": "jest"
