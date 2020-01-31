@@ -13,6 +13,7 @@ module.exports = checkSchema({
     notEmpty: true
   },
   password: {
+    isString: true,
     isLength: { options: { min: 6 } }
   }
 });
